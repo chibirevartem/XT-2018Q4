@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Square
 {
-    class Program
+    class Program 
     {
         static void Square(int N)
         {
@@ -34,9 +34,22 @@ namespace Square
 
             }
         }
-        static void Main(string[] args)
+        static void Main(string[] args) 
         {
-            Square(9);
+            
+
+            Console.WriteLine("This is a Square-Figure Builder.Please, type in an uneven size of the side and press ENTER.");
+
+            int n;
+            bool result = Int32.TryParse(Console.ReadLine(), out n);
+
+            if (result)
+            {
+                if (n < 16) { Square(n); }
+                else { Console.WriteLine("Error! Too much (maximum is 15)"); };
+                
+            }
+            else { Console.WriteLine("Incorrect input data"); }
 
             Console.ReadKey();
         }

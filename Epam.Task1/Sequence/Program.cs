@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Sequence
 {
-    class Program
+    class Program 
     {
         static void Sequence(int N)
         {
@@ -17,7 +17,13 @@ namespace Sequence
                 {
                     arr[i] = i + 1;
 
-                    Console.Write(arr[i] + " ");
+                    if (i!=(N-1))
+                    {
+                        Console.Write(arr[i] + ", ");
+                    }
+
+                    else { Console.Write(arr[i] + "."); }
+                    
                 }
 
                 Console.WriteLine();
@@ -27,7 +33,15 @@ namespace Sequence
         }
         static void Main(string[] args)
         {
-            Sequence(7);
+
+            Console.WriteLine("This is an array generator. Please, type in any positive number and press ENTER.");
+
+            int n;
+            bool result = Int32.TryParse(Console.ReadLine(), out n);
+
+            if (result) { Sequence(n); }
+            else { Console.WriteLine("Incorrect input data"); }
+
             Console.ReadKey();
         }
     }
