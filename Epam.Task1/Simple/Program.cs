@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Simple
 {
-    class Program
+    class Program 
     {
         static void Simple(int N)
         {
@@ -21,14 +21,23 @@ namespace Simple
                 else Console.WriteLine(N + " is not a simple");
             }
 
+
+
         }
 
 
-        static void Main(string[] args)
+        static void Main(string[] args) // не доделан интерфейс
         {
-            Simple(7);
-            Simple(8);
-            Console.ReadKey();
+
+            Console.WriteLine("This is a Simple-number test. Please, type in any number you want to check and press ENTER.");
+
+            int n;
+            bool result = Int32.TryParse(Console.ReadLine(), out n);
+
+            if (result) { Simple(n); }
+            else { Console.WriteLine("Incorrect input data"); }
+            
+            
         }
     }
 }
