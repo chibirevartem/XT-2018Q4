@@ -1,0 +1,6 @@
+C:\Users\User\Documents\Visual Studio 2015\Projects\EPAM\XT-2018Q4\Epam.Task02\Epam.Task02.Rectangle\bin\Debug\Epam.Task02.Rectangle.exe.config
+C:\Users\User\Documents\Visual Studio 2015\Projects\EPAM\XT-2018Q4\Epam.Task02\Epam.Task02.Rectangle\bin\Debug\Epam.Task02.Rectangle.exe
+C:\Users\User\Documents\Visual Studio 2015\Projects\EPAM\XT-2018Q4\Epam.Task02\Epam.Task02.Rectangle\bin\Debug\Epam.Task02.Rectangle.pdb
+C:\Users\User\Documents\Visual Studio 2015\Projects\EPAM\XT-2018Q4\Epam.Task02\Epam.Task02.Rectangle\obj\Debug\Epam.Task02.Rectangle.csprojResolveAssemblyReference.cache
+C:\Users\User\Documents\Visual Studio 2015\Projects\EPAM\XT-2018Q4\Epam.Task02\Epam.Task02.Rectangle\obj\Debug\Epam.Task02.Rectangle.exe
+C:\Users\User\Documents\Visual Studio 2015\Projects\EPAM\XT-2018Q4\Epam.Task02\Epam.Task02.Rectangle\obj\Debug\Epam.Task02.Rectangle.pdb
