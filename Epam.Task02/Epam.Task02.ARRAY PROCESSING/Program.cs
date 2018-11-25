@@ -11,7 +11,7 @@ namespace Epam.Task02.ARRAY_PROCESSING
         static void Array_Processing()
         {
             Random rand = new Random();
-            int length = rand.Next(20);
+            int length = rand.Next(5,20);
             int[] arr = new int[length];
 
             for (int i = 0; i < length; i++)
@@ -77,7 +77,7 @@ namespace Epam.Task02.ARRAY_PROCESSING
 
             }
 
-            Console.WriteLine($"Sorted Array:\n");
+            Console.WriteLine($"\nSorted Array:\n");
 
             foreach (var item in arr)
             {
@@ -90,6 +90,7 @@ namespace Epam.Task02.ARRAY_PROCESSING
         static void Main(string[] args)
         {
             Array_Processing();
+            Console.WriteLine("");
         }
     }
 }

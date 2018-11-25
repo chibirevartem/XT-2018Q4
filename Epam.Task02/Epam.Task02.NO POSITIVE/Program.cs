@@ -17,11 +17,7 @@ namespace Epam.Task02.NO_POSITIVE
             int[,,] arr = new int[i, j, k];
 
 
-            Console.WriteLine("Before Changing:\n");
-
-            Console.WriteLine($"i={i},j={j},k={k}");
-
-            
+            Console.WriteLine("An array before change:\n");
 
             for (int z = 0; z < k; z++)
             {
@@ -36,7 +32,9 @@ namespace Epam.Task02.NO_POSITIVE
                 }
             }
 
-            Console.WriteLine("\nAfter Changing:\n");
+            Console.WriteLine($"\nDimensions:[{i},{j},{k}]");
+
+            Console.WriteLine("\nThe array after change:\n");
 
             for (int z = 0; z < k; z++)
             {

@@ -13,7 +13,7 @@ namespace Epam.Task02.NON_NEGATIVE_SUM
         {
             Random rand = new Random();
 
-            int length = rand.Next(2, 10);
+            int length = rand.Next(5, 10);
             int[] arr = new int[length];
             int buffer = 0;
 

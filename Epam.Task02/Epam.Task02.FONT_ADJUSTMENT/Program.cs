@@ -30,8 +30,8 @@ namespace Epam.Task02.FONT_ADJUSTMENT
             while (true)
             {
                 Console.WriteLine($"\nParameters of font:{font}");
-                Console.WriteLine($"Type in Value and press ENTER:");
                 Console.WriteLine($"1: Bold\n2: Italic\n3: Underline");
+                Console.Write($"Type in a value and press ENTER:");
                 int input;
 
                 bool success = Int32.TryParse(Console.ReadLine(), out input);
@@ -42,7 +42,7 @@ namespace Epam.Task02.FONT_ADJUSTMENT
 
                     font ^= ((Font_Adjustment)(int)Math.Pow(2, input-1)); // XOR
                 }
-                else { Console.WriteLine("Incorrect input data"); }
+                else { Console.WriteLine("\n\nERROR! Incorrect input data\nThe Value must be beetween 1 and 3"); }
             }
 
 

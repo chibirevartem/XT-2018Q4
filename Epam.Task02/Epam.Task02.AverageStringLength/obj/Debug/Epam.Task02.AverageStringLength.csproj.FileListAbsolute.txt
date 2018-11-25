@@ -1,5 +1,4 @@
 C:\Users\User\Documents\Visual Studio 2015\Projects\EPAM\XT-2018Q4\Epam.Task02\Epam.Task02.AverageStringLength\bin\Debug\Epam.Task02.AverageStringLength.exe.config
-C:\Users\User\Documents\Visual Studio 2015\Projects\EPAM\XT-2018Q4\Epam.Task02\Epam.Task02.AverageStringLength\obj\Debug\Epam.Task02.AverageStringLength.csprojResolveAssemblyReference.cache
 C:\Users\User\Documents\Visual Studio 2015\Projects\EPAM\XT-2018Q4\Epam.Task02\Epam.Task02.AverageStringLength\bin\Debug\Epam.Task02.AverageStringLength.exe
 C:\Users\User\Documents\Visual Studio 2015\Projects\EPAM\XT-2018Q4\Epam.Task02\Epam.Task02.AverageStringLength\bin\Debug\Epam.Task02.AverageStringLength.pdb
 C:\Users\User\Documents\Visual Studio 2015\Projects\EPAM\XT-2018Q4\Epam.Task02\Epam.Task02.AverageStringLength\obj\Debug\Epam.Task02.AverageStringLength.exe
