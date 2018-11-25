@@ -1,0 +1,6 @@
+C:\Users\User\Documents\Visual Studio 2015\Projects\EPAM\XT-2018Q4\Epam.Task02\Epam.Task02.2D ARRAY\bin\Debug\Epam.Task02.2D ARRAY.exe.config
+C:\Users\User\Documents\Visual Studio 2015\Projects\EPAM\XT-2018Q4\Epam.Task02\Epam.Task02.2D ARRAY\bin\Debug\Epam.Task02.2D ARRAY.exe
+C:\Users\User\Documents\Visual Studio 2015\Projects\EPAM\XT-2018Q4\Epam.Task02\Epam.Task02.2D ARRAY\bin\Debug\Epam.Task02.2D ARRAY.pdb
+C:\Users\User\Documents\Visual Studio 2015\Projects\EPAM\XT-2018Q4\Epam.Task02\Epam.Task02.2D ARRAY\obj\Debug\Epam.Task02.2D ARRAY.csprojResolveAssemblyReference.cache
+C:\Users\User\Documents\Visual Studio 2015\Projects\EPAM\XT-2018Q4\Epam.Task02\Epam.Task02.2D ARRAY\obj\Debug\Epam.Task02.2D ARRAY.exe
+C:\Users\User\Documents\Visual Studio 2015\Projects\EPAM\XT-2018Q4\Epam.Task02\Epam.Task02.2D ARRAY\obj\Debug\Epam.Task02.2D ARRAY.pdb
