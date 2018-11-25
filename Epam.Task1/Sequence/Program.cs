@@ -30,19 +30,23 @@ namespace Sequence
 
             }
 
+            else { Console.WriteLine("Error!\nThe number must be positive"); }
+
         }
         static void Main(string[] args)
         {
 
-            Console.WriteLine("This is an array generator. Please, type in any positive number and press ENTER.");
+            while (true)
+            {
+                Console.Write("It generates sequence from 1 to N in ascending order with step 1\nPlease, type in any positive number and press ENTER:");
 
-            int n;
-            bool result = Int32.TryParse(Console.ReadLine(), out n);
+                int n;
+                bool result = Int32.TryParse(Console.ReadLine(), out n);
 
-            if (result) { Sequence(n); }
-            else { Console.WriteLine("Incorrect input data"); }
-
-            Console.ReadKey();
+                if (result) { Sequence(n); }
+                else { Console.WriteLine("Incorrect input data or the value is too much"); }
+            }
+            
         }
     }
 }

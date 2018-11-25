@@ -31,27 +31,30 @@ namespace Square
                     Console.WriteLine("");
                 }
 
+            }
 
+            else
+            {
+                Console.WriteLine("Error! The value of the side must be both positive and even\n");
             }
         }
         static void Main(string[] args) 
         {
-            
-
-            Console.WriteLine("This is a Square-Figure Builder.Please, type in an uneven size of the side and press ENTER.");
-
-            int n;
-            bool result = Int32.TryParse(Console.ReadLine(), out n);
-
-            if (result)
+            while (true)
             {
-                if (n < 16) { Square(n); }
-                else { Console.WriteLine("Error! Too much (maximum is 15)"); };
-                
-            }
-            else { Console.WriteLine("Incorrect input data"); }
+                Console.Write("This is a square-figure builder.\nPlease, type in an uneven size of the side and press ENTER:");
 
-            Console.ReadKey();
+                int n;
+                bool result = Int32.TryParse(Console.ReadLine(), out n);
+
+                if (result)
+                {
+                    if (n < 16) { Square(n); }
+                    else { Console.WriteLine("Error! Too much (maximum is 15)"); };
+
+                }
+                else { Console.WriteLine("Incorrect input data"); }
+            }
         }
     }
 }
