@@ -8,11 +8,11 @@ namespace Epam.Task02.Rectangle
 {
     class Program
     {
-        public static void Rectangle(int a, int b)
+        public static void Rectangle(double a, double b)
         {
-            if ((a>0)&(b>0))
+            if ((a>0.0)&(b>0.0))
             {
-                Console.WriteLine($"The Square is: {a*b}");
+                Console.WriteLine($"The area is: {a*b}");
             }
 
             else { Console.WriteLine("Both sides must be positive"); }
@@ -22,17 +22,20 @@ namespace Epam.Task02.Rectangle
             
             while (true)
             {
-                Console.WriteLine("\nThis is a rectangle-square calculation\n");
-                int a, b;
-                Console.WriteLine("Please,type in A-side and press ENTER:");
-                bool success1 = Int32.TryParse(Console.ReadLine(),out a);
+                double a, b;
 
-                Console.WriteLine("Please,type in B-side and press ENTER:\n");
-                bool success2 = Int32.TryParse(Console.ReadLine(), out b);
+                Console.Write("\nThis is a rectangle-area calculator\n\n");
+                
+                Console.Write($"Please,type in the A-side and press ENTER( , - separator):");
+                bool success1 = double.TryParse(Console.ReadLine(),out a);
+               
 
+                Console.Write("Please,type in the B-side and press ENTER( , - separator):");
+                bool success2 = double.TryParse(Console.ReadLine(), out b);
+                
                 if (success1 & success2) { Rectangle(a, b); }
                 else { Console.WriteLine("Wrong input data.Try again"); }
-                
+
             }
             
         }
