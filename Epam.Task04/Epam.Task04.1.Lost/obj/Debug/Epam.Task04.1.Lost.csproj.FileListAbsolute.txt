@@ -1,0 +1,5 @@
+C:\Users\User\Documents\Visual Studio 2015\Projects\EPAM\XT-2018Q4\Epam.Task04.3.DynamicArray\Epam.Task04.1.Lost\bin\Debug\Epam.Task04.1.Lost.exe.config
+C:\Users\User\Documents\Visual Studio 2015\Projects\EPAM\XT-2018Q4\Epam.Task04.3.DynamicArray\Epam.Task04.1.Lost\bin\Debug\Epam.Task04.1.Lost.exe
+C:\Users\User\Documents\Visual Studio 2015\Projects\EPAM\XT-2018Q4\Epam.Task04.3.DynamicArray\Epam.Task04.1.Lost\bin\Debug\Epam.Task04.1.Lost.pdb
+C:\Users\User\Documents\Visual Studio 2015\Projects\EPAM\XT-2018Q4\Epam.Task04.3.DynamicArray\Epam.Task04.1.Lost\obj\Debug\Epam.Task04.1.Lost.exe
+C:\Users\User\Documents\Visual Studio 2015\Projects\EPAM\XT-2018Q4\Epam.Task04.3.DynamicArray\Epam.Task04.1.Lost\obj\Debug\Epam.Task04.1.Lost.pdb

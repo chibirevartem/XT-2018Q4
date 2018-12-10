@@ -1,0 +1,6 @@
+C:\Users\User\Documents\Visual Studio 2015\Projects\EPAM\XT-2018Q4\Epam.Task04.3.DynamicArray\Epam.Task04.2.WordFrequency\bin\Debug\Epam.Task04.2.WordFrequency.exe.config
+C:\Users\User\Documents\Visual Studio 2015\Projects\EPAM\XT-2018Q4\Epam.Task04.3.DynamicArray\Epam.Task04.2.WordFrequency\bin\Debug\Epam.Task04.2.WordFrequency.exe
+C:\Users\User\Documents\Visual Studio 2015\Projects\EPAM\XT-2018Q4\Epam.Task04.3.DynamicArray\Epam.Task04.2.WordFrequency\bin\Debug\Epam.Task04.2.WordFrequency.pdb
+C:\Users\User\Documents\Visual Studio 2015\Projects\EPAM\XT-2018Q4\Epam.Task04.3.DynamicArray\Epam.Task04.2.WordFrequency\obj\Debug\Epam.Task04.2.WordFrequency.csprojResolveAssemblyReference.cache
+C:\Users\User\Documents\Visual Studio 2015\Projects\EPAM\XT-2018Q4\Epam.Task04.3.DynamicArray\Epam.Task04.2.WordFrequency\obj\Debug\Epam.Task04.2.WordFrequency.exe
+C:\Users\User\Documents\Visual Studio 2015\Projects\EPAM\XT-2018Q4\Epam.Task04.3.DynamicArray\Epam.Task04.2.WordFrequency\obj\Debug\Epam.Task04.2.WordFrequency.pdb
