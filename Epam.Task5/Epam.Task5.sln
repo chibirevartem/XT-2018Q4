@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Epam.Task5.1.CustomSort", "Epam.Task5.1.CustomSort\Epam.Task5.1.CustomSort.csproj", "{02F24EEA-038D-49FF-A74F-3B234BD12CEC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Epam.Task5.2.CustomSortDemo", "Epam.Task5.2.CustomSortDemo\Epam.Task5.2.CustomSortDemo.csproj", "{0E77EDBB-5823-4F80-8D00-A67840AF184B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Epam.Task5.3.SortingUnit", "Epam.Task5.4.3.SortingUnit\Epam.Task5.3.SortingUnit.csproj", "{87290E4F-6968-411E-8928-4053A801B604}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Epam.Task5.4.NumberArraySum", "Epam.Task5.4.NumberArraySum\Epam.Task5.4.NumberArraySum.csproj", "{0AF0060B-5FA0-4E91-A057-3053495AE51F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Epam.Task5.5.Tointornottoint", "Epam.Task5.5.Tointornottoint\Epam.Task5.5.Tointornottoint.csproj", "{D659B711-90E9-4150-9B9A-D8C667E9A874}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{02F24EEA-038D-49FF-A74F-3B234BD12CEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02F24EEA-038D-49FF-A74F-3B234BD12CEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02F24EEA-038D-49FF-A74F-3B234BD12CEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02F24EEA-038D-49FF-A74F-3B234BD12CEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E77EDBB-5823-4F80-8D00-A67840AF184B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E77EDBB-5823-4F80-8D00-A67840AF184B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E77EDBB-5823-4F80-8D00-A67840AF184B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E77EDBB-5823-4F80-8D00-A67840AF184B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87290E4F-6968-411E-8928-4053A801B604}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87290E4F-6968-411E-8928-4053A801B604}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87290E4F-6968-411E-8928-4053A801B604}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87290E4F-6968-411E-8928-4053A801B604}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0AF0060B-5FA0-4E91-A057-3053495AE51F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AF0060B-5FA0-4E91-A057-3053495AE51F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AF0060B-5FA0-4E91-A057-3053495AE51F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AF0060B-5FA0-4E91-A057-3053495AE51F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D659B711-90E9-4150-9B9A-D8C667E9A874}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D659B711-90E9-4150-9B9A-D8C667E9A874}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D659B711-90E9-4150-9B9A-D8C667E9A874}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D659B711-90E9-4150-9B9A-D8C667E9A874}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,6 @@
+C:\Users\User\Documents\Visual Studio 2015\Projects\EPAM\XT-2018Q4\Epam.Task5\Epam.Task5.2.CustomSortDemo\bin\Debug\Epam.Task5.2.CustomSortDemo.exe.config
+C:\Users\User\Documents\Visual Studio 2015\Projects\EPAM\XT-2018Q4\Epam.Task5\Epam.Task5.2.CustomSortDemo\bin\Debug\Epam.Task5.2.CustomSortDemo.exe
+C:\Users\User\Documents\Visual Studio 2015\Projects\EPAM\XT-2018Q4\Epam.Task5\Epam.Task5.2.CustomSortDemo\bin\Debug\Epam.Task5.2.CustomSortDemo.pdb
+C:\Users\User\Documents\Visual Studio 2015\Projects\EPAM\XT-2018Q4\Epam.Task5\Epam.Task5.2.CustomSortDemo\obj\Debug\Epam.Task5.2.CustomSortDemo.exe
+C:\Users\User\Documents\Visual Studio 2015\Projects\EPAM\XT-2018Q4\Epam.Task5\Epam.Task5.2.CustomSortDemo\obj\Debug\Epam.Task5.2.CustomSortDemo.pdb
+C:\Users\User\Documents\Visual Studio 2015\Projects\EPAM\XT-2018Q4\Epam.Task5\Epam.Task5.2.CustomSortDemo\obj\Debug\Epam.Task5.2.CustomSortDemo.csprojResolveAssemblyReference.cache
