@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Epam.Task5.4.NumberArraySum
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Epam.Task5.5.Tointornottoint", "Epam.Task5.5.Tointornottoint\Epam.Task5.5.Tointornottoint.csproj", "{D659B711-90E9-4150-9B9A-D8C667E9A874}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Epam.Task5.6.ICQ", "Epam.Task5.6.ICQ\Epam.Task5.6.ICQ.csproj", "{C2750EC4-1A3E-40B4-8E0D-7C8D67FBACB6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{D659B711-90E9-4150-9B9A-D8C667E9A874}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D659B711-90E9-4150-9B9A-D8C667E9A874}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D659B711-90E9-4150-9B9A-D8C667E9A874}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2750EC4-1A3E-40B4-8E0D-7C8D67FBACB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2750EC4-1A3E-40B4-8E0D-7C8D67FBACB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2750EC4-1A3E-40B4-8E0D-7C8D67FBACB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2750EC4-1A3E-40B4-8E0D-7C8D67FBACB6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
