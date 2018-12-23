@@ -1,0 +1,9 @@
+C:\Users\User\source\XT2018Q4\EPAM\Epam.Task06\Epam.Task06.BackUpSystem\Epam.Task06.BackUpSystem_WF\bin\Debug\Epam.Task06.BackUpSystem_WF.exe
+C:\Users\User\source\XT2018Q4\EPAM\Epam.Task06\Epam.Task06.BackUpSystem\Epam.Task06.BackUpSystem_WF\bin\Debug\Epam.Task06.BackUpSystem_WF.pdb
+C:\Users\User\source\XT2018Q4\EPAM\Epam.Task06\Epam.Task06.BackUpSystem\Epam.Task06.BackUpSystem_WF\obj\Debug\Epam.Task06.BackUpSystem_WF.csprojAssemblyReference.cache
+C:\Users\User\source\XT2018Q4\EPAM\Epam.Task06\Epam.Task06.BackUpSystem\Epam.Task06.BackUpSystem_WF\obj\Debug\Epam.Task06.BackUpSystem_WF.Form1.resources
+C:\Users\User\source\XT2018Q4\EPAM\Epam.Task06\Epam.Task06.BackUpSystem\Epam.Task06.BackUpSystem_WF\obj\Debug\Epam.Task06.BackUpSystem_WF.Properties.Resources.resources
+C:\Users\User\source\XT2018Q4\EPAM\Epam.Task06\Epam.Task06.BackUpSystem\Epam.Task06.BackUpSystem_WF\obj\Debug\Epam.Task06.BackUpSystem_WF.csproj.GenerateResource.cache
+C:\Users\User\source\XT2018Q4\EPAM\Epam.Task06\Epam.Task06.BackUpSystem\Epam.Task06.BackUpSystem_WF\obj\Debug\Epam.Task06.BackUpSystem_WF.csproj.CoreCompileInputs.cache
+C:\Users\User\source\XT2018Q4\EPAM\Epam.Task06\Epam.Task06.BackUpSystem\Epam.Task06.BackUpSystem_WF\obj\Debug\Epam.Task06.BackUpSystem_WF.exe
+C:\Users\User\source\XT2018Q4\EPAM\Epam.Task06\Epam.Task06.BackUpSystem\Epam.Task06.BackUpSystem_WF\obj\Debug\Epam.Task06.BackUpSystem_WF.pdb
