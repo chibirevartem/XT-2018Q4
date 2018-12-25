@@ -1,8 +1,0 @@
-C:\Users\User\Documents\Visual Studio 2015\Projects\EPAM\XT-2018Q4\Epam.Task04.3.DynamicArray\Epam.Task04.3.DynamicArray\bin\Debug\Epam.Task04.3.DynamicArray.exe.config
-C:\Users\User\Documents\Visual Studio 2015\Projects\EPAM\XT-2018Q4\Epam.Task04.3.DynamicArray\Epam.Task04.3.DynamicArray\bin\Debug\Epam.Task04.3.DynamicArray.exe
-C:\Users\User\Documents\Visual Studio 2015\Projects\EPAM\XT-2018Q4\Epam.Task04.3.DynamicArray\Epam.Task04.3.DynamicArray\bin\Debug\Epam.Task04.3.DynamicArray.pdb
-C:\Users\User\Documents\Visual Studio 2015\Projects\EPAM\XT-2018Q4\Epam.Task04.3.DynamicArray\Epam.Task04.3.DynamicArray\obj\Debug\Epam.Task04.3.DynamicArray.exe
-C:\Users\User\Documents\Visual Studio 2015\Projects\EPAM\XT-2018Q4\Epam.Task04.3.DynamicArray\Epam.Task04.3.DynamicArray\obj\Debug\Epam.Task04.3.DynamicArray.pdb
-C:\Users\User\Documents\Visual Studio 2015\Projects\EPAM\XT-2018Q4\Epam.Task04\Epam.Task04.3.DynamicArray\bin\Debug\Epam.Task04.3.DynamicArray.exe.config
-C:\Users\User\Documents\Visual Studio 2015\Projects\EPAM\XT-2018Q4\Epam.Task04\Epam.Task04.3.DynamicArray\obj\Debug\Epam.Task04.3.DynamicArray.exe
-C:\Users\User\Documents\Visual Studio 2015\Projects\EPAM\XT-2018Q4\Epam.Task04\Epam.Task04.3.DynamicArray\obj\Debug\Epam.Task04.3.DynamicArray.pdb
