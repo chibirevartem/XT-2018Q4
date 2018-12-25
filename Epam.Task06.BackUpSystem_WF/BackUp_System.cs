@@ -10,7 +10,6 @@ namespace Epam.Task06.BackUpSystem_WF
     {
         private readonly System.IO.FileSystemWatcher filewatcher;
         private StreamWriter logger = null;
-        public event EventHandler OnDataRestored;
         private readonly string tracking_directory;
         private readonly string backup_directory;
         private readonly string logger_fullpath;
@@ -51,6 +50,49 @@ namespace Epam.Task06.BackUpSystem_WF
             filewatcher.Error += FileSystemWatcher_OnError;
             filewatcher.EnableRaisingEvents = IsTracking;
         }
+
+        void Recovery(StreamReader reader, string action)
+        {
+            string restoring_file;
+            string renamed_file;
+            string backup_file;
+            string deleted_file;
+            switch (action)
+            {
+                case "Created":
+                    {
+                        restoring_file = reader.ReadLine();
+                        backup_file = reader.ReadLine();
+                        Directory.CreateDirectory(Path.GetDirectoryName(restoring_file));
+                        File.Copy(backup_file, restoring_file, true);
+                        break;
+                    }
+                case "Changed":
+                    {
+                        restoring_file = reader.ReadLine();
+                        backup_file = reader.ReadLine();
+                        Directory.CreateDirectory(Path.GetDirectoryName(restoring_file));
+                        File.Copy(backup_file, restoring_file, true);
+                        break;
+                    }
+                case "Deleted":
+                    {
+                        deleted_file = reader.ReadLine();
+                        File.Delete(reader.ReadLine());
+                        break;
+                    }
+                case "Renamed":
+                    {
+                        restoring_file = reader.ReadLine();
+                        renamed_file = reader.ReadLine();
+                        File.Move(renamed_file, restoring_file);
+                        break;
+                    }
+                default: break;
+            }
+
+
+        }
         public void RestoreTo(DateTime restoration_time)
         {
             if (filewatcher.EnableRaisingEvents == true) { return; }
@@ -76,52 +118,11 @@ namespace Epam.Task06.BackUpSystem_WF
                     Recovery(logger_reader, action);
                     if (logger_reader.Peek() < 0) { break; }
                     current_logger_time = DateTime.Parse(logger_reader.ReadLine());
-                }
+                } 
                 Console.WriteLine("Restoring has been done");
             }
 
-            void Recovery(StreamReader reader, string action)
-            {
-                string restoring_file;
-                string renamed_file;
-                string backup_file;
-                string deleted_file;
-                switch (action)
-                {
-                    case "Created":
-                        {
-                            restoring_file = reader.ReadLine();
-                            backup_file = reader.ReadLine();
-                            Directory.CreateDirectory(Path.GetDirectoryName(restoring_file));
-                            File.Copy(backup_file, restoring_file, true);
-                            break;
-                        }
-                    case "Changed":
-                        {
-                            restoring_file = reader.ReadLine();
-                            backup_file = reader.ReadLine();
-                            Directory.CreateDirectory(Path.GetDirectoryName(restoring_file));
-                            File.Copy(backup_file, restoring_file, true);
-                            break;
-                        }
-                    case "Deleted":
-                        {
-                            deleted_file = reader.ReadLine();
-                            File.Delete(reader.ReadLine());
-                            break;
-                        }
-                    case "Renamed":
-                        {
-                            restoring_file = reader.ReadLine();
-                            renamed_file = reader.ReadLine();
-                            File.Move(renamed_file, restoring_file);
-                            break;
-                        }
-                    default: break;
-                }
 
-
-            }
         }
         private void Save(string file_event, params string[] tracking_files_fullpath)
         {

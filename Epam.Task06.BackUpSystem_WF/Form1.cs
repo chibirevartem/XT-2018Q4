@@ -12,13 +12,15 @@ namespace Epam.Task06.BackUpSystem_WF
 {
     public partial class Form1 : Form
     {
+        string backup = @"C:\EPAM\BackUp";
+        string tracking = @"C:\EPAM\Tracking";
+        protected DateTime restore_time;
+
         public Form1()
         {
             InitializeComponent();
 
-            string backup = @"C:\EPAM\BackUp";
-            string tracking = @"C:\EPAM\Tracking";
-
+            button1.Visible = false;
             textBox1.Text = backup;
             textBox2.Text = tracking;
             textBox1.ReadOnly = true;
@@ -30,12 +32,32 @@ namespace Epam.Task06.BackUpSystem_WF
             {
                 Directory.CreateDirectory(tracking);
             }
+        }
 
-            //DateTime time = new DateTime(2018, 12, 23, 21, 28, 00);
+        private void radioButton1_CheckedChanged(object sender, EventArgs e)
+        {
+            button1.Visible = false;
+            RadioButton radioButton = (RadioButton)sender;
+            if (radioButton.Checked)
+            {
+                MessageBox.Show("The tracking has been started");
+            }
 
-            BackUpSystem backUpSystem = new BackUpSystem(tracking, backup, ".txt", true);
-            //backUpSystem.RestoreTo(time);
+            BackUpSystem backUpSystem = new BackUpSystem(this.tracking, this.backup, ".txt", true);
 
+        }
+
+        private void radioButton2_CheckedChanged(object sender, EventArgs e)
+        {
+
+            button1.Visible = true;
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.restore_time = dateTimePicker1.Value.Date+dateTimePicker2.Value.TimeOfDay;
+            BackUpSystem backUpSystem = new BackUpSystem(this.tracking, this.backup, ".txt", false);
+            backUpSystem.RestoreTo(this.restore_time);
         }
     }
 }
