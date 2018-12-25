@@ -1,6 +1,0 @@
-C:\Users\User\Documents\Visual Studio 2015\Projects\EPAM\XT-2018Q4\Epam.Task04.3.DynamicArray\Epam.Task04.4.HardCoreMode\bin\Debug\Epam.Task04.4.HardCoreMode.exe.config
-C:\Users\User\Documents\Visual Studio 2015\Projects\EPAM\XT-2018Q4\Epam.Task04.3.DynamicArray\Epam.Task04.4.HardCoreMode\obj\Debug\Epam.Task04.4.HardCoreMode.csprojResolveAssemblyReference.cache
-C:\Users\User\Documents\Visual Studio 2015\Projects\EPAM\XT-2018Q4\Epam.Task04.3.DynamicArray\Epam.Task04.4.HardCoreMode\bin\Debug\Epam.Task04.4.HardCoreMode.exe
-C:\Users\User\Documents\Visual Studio 2015\Projects\EPAM\XT-2018Q4\Epam.Task04.3.DynamicArray\Epam.Task04.4.HardCoreMode\bin\Debug\Epam.Task04.4.HardCoreMode.pdb
-C:\Users\User\Documents\Visual Studio 2015\Projects\EPAM\XT-2018Q4\Epam.Task04.3.DynamicArray\Epam.Task04.4.HardCoreMode\obj\Debug\Epam.Task04.4.HardCoreMode.exe
-C:\Users\User\Documents\Visual Studio 2015\Projects\EPAM\XT-2018Q4\Epam.Task04.3.DynamicArray\Epam.Task04.4.HardCoreMode\obj\Debug\Epam.Task04.4.HardCoreMode.pdb
