@@ -1,0 +1,5 @@
+C:\Users\User\Documents\Visual Studio 2017\Projects\EPAM\XT-2018Q4\Epam.Task08\Epam.Task08.4.NUMBER_VALIDATOR\bin\Debug\Epam.Task08.4.NUMBER_VALIDATOR.exe
+C:\Users\User\Documents\Visual Studio 2017\Projects\EPAM\XT-2018Q4\Epam.Task08\Epam.Task08.4.NUMBER_VALIDATOR\bin\Debug\Epam.Task08.4.NUMBER_VALIDATOR.pdb
+C:\Users\User\Documents\Visual Studio 2017\Projects\EPAM\XT-2018Q4\Epam.Task08\Epam.Task08.4.NUMBER_VALIDATOR\obj\Debug\Epam.Task08.4.NUMBER_VALIDATOR.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\Visual Studio 2017\Projects\EPAM\XT-2018Q4\Epam.Task08\Epam.Task08.4.NUMBER_VALIDATOR\obj\Debug\Epam.Task08.4.NUMBER_VALIDATOR.exe
+C:\Users\User\Documents\Visual Studio 2017\Projects\EPAM\XT-2018Q4\Epam.Task08\Epam.Task08.4.NUMBER_VALIDATOR\obj\Debug\Epam.Task08.4.NUMBER_VALIDATOR.pdb

@@ -1,0 +1,6 @@
+C:\Users\User\Documents\Visual Studio 2017\Projects\EPAM\XT-2018Q4\Epam.Task08\Epam.Task08.1.DATE_EXISTANCE\bin\Debug\Epam.Task08.1.DATE_EXISTANCE.exe
+C:\Users\User\Documents\Visual Studio 2017\Projects\EPAM\XT-2018Q4\Epam.Task08\Epam.Task08.1.DATE_EXISTANCE\bin\Debug\Epam.Task08.1.DATE_EXISTANCE.pdb
+C:\Users\User\Documents\Visual Studio 2017\Projects\EPAM\XT-2018Q4\Epam.Task08\Epam.Task08.1.DATE_EXISTANCE\obj\Debug\Epam.Task08.1.DATE_EXISTANCE.csprojAssemblyReference.cache
+C:\Users\User\Documents\Visual Studio 2017\Projects\EPAM\XT-2018Q4\Epam.Task08\Epam.Task08.1.DATE_EXISTANCE\obj\Debug\Epam.Task08.1.DATE_EXISTANCE.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\Visual Studio 2017\Projects\EPAM\XT-2018Q4\Epam.Task08\Epam.Task08.1.DATE_EXISTANCE\obj\Debug\Epam.Task08.1.DATE_EXISTANCE.exe
+C:\Users\User\Documents\Visual Studio 2017\Projects\EPAM\XT-2018Q4\Epam.Task08\Epam.Task08.1.DATE_EXISTANCE\obj\Debug\Epam.Task08.1.DATE_EXISTANCE.pdb
