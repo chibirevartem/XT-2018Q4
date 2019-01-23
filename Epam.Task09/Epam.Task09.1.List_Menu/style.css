@@ -1,0 +1,26 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.menu_list {
+    margin: 20px;
+    padding: 10px;
+    list-style: none;
+    width: 200px;
+    border: 1px solid black;
+    border-radius: 10px;
+    line-height: 1.5em;
+    color: #7d160e;
+    background-color: #f6e4a1;
+    box-shadow: 5px 5px 0px 0px #7d160e;
+}
+
+ul, menu, dir {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
