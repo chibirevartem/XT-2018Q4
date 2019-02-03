@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{FD7424FB-28BB-41EA-85B1-EE980180C1A3}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Epam.Task07.Common</RootNamespace>
+    <AssemblyName>Epam.Task07.Common</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DependencyResolver.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Epam.Task07.BLL.Interfaces\Epam.Task07.BLL.Interfaces.csproj">
+      <Project>{db6a818c-c0fb-494c-bea3-9eb68b04d0b3}</Project>
+      <Name>Epam.Task07.BLL.Interfaces</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Epam.Task07.BLL\Epam.Task07.BLL.csproj">
+      <Project>{db63d9d7-2daa-415c-a4da-45293c4797de}</Project>
+      <Name>Epam.Task07.BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Epam.Task07.DAL.Interfaces\Epam.Task07.DAL.Interfaces.csproj">
+      <Project>{23000f46-d181-4413-808a-a9c203443f1d}</Project>
+      <Name>Epam.Task07.DAL.Interfaces</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Epam.Task07.txtDAL\Epam.Task07.txtDAL.csproj">
+      <Project>{9b8a4c96-0db0-413e-abc7-8c7704261813}</Project>
+      <Name>Epam.Task07.txtDAL</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
