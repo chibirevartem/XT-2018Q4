@@ -5,6 +5,7 @@ using System.IO;
 using System.Linq;
 using Epam.Task07.Entities;
 using Epam.Task07.txtDAL.Interfaces;
+using System.Configuration;
 
 
 namespace Epam.Task07.txtDAL
@@ -18,8 +19,8 @@ namespace Epam.Task07.txtDAL
 
         public AwardsDAO()
         {
-            maxIdFilePath = ConfigurationSettings.AppSettings["TextFileDALAwardsIdKey"];
-            awardsFilePath = ConfigurationSettings.AppSettings["TextFileDALAwardsKey"];
+            maxIdFilePath = ConfigurationManager.AppSettings["TextFileDALAwardsIdKey"];
+            awardsFilePath = ConfigurationManager.AppSettings["TextFileDALAwardsKey"];
 
             try
             {

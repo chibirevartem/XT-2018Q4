@@ -19,8 +19,8 @@ namespace Epam.Task07.txtDAL
 
         public UsersDAO()
         {
-            maxIdFilePath = ConfigurationSettings.AppSettings["TextFileDALUsersIdKey"];
-            usersFilePath = ConfigurationSettings.AppSettings["TextFileDALUsersKey"];
+            maxIdFilePath = ConfigurationManager.AppSettings["TextFileDALUsersIdKey"];
+            usersFilePath = ConfigurationManager.AppSettings["TextFileDALUsersKey"];
 
             try
             {

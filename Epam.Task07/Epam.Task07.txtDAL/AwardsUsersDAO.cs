@@ -15,7 +15,7 @@ namespace Epam.Task07.txtDAL
 
         public AwardsUsersDAO()
         {
-            awardUsersFilePath = ConfigurationSettings.AppSettings["TextFileDALAwardUsersKey"];
+            awardUsersFilePath = ConfigurationManager.AppSettings["TextFileDALAwardUsersKey"];
         }
 
         public bool Add(AwardUser awardUser)

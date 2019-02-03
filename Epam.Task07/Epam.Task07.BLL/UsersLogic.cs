@@ -34,21 +34,21 @@ namespace Epam.Task07.BLL
             if (!Regex.IsMatch(userName, userNamePattern))
             {
                 throw new Exception("Incorrent username");
-                
+
             }
             if (!Regex.IsMatch(birthDate, datePattern))
             {
                 throw new Exception("Incorrent date");
             }
 
-            
+
 
             User user = new User
             {
                 Name = userName,
-                
-                BirthDate = DateTime.ParseExact(birthDate, DateFormat, CultureInfo.InvariantCulture);
-        
+
+                BirthDate = DateTime.ParseExact(birthDate, DateFormat, CultureInfo.InvariantCulture),
+            };
 
             if (!(user.Age > 5 & user.Age < 150))
             {
@@ -62,7 +62,7 @@ namespace Epam.Task07.BLL
                     usersDAO.Add(user);
                     return true;
                 }
-                catch (Exception exc)
+                catch (Exception )
                 {
 
                     return false;

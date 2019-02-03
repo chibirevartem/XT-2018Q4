@@ -24,7 +24,7 @@ namespace Epam.Task07.Common
         {
            get
             {
-                string key = ConfigurationSettings.AppSettings["AwardsDAOKey"];
+                var key = ConfigurationManager.AppSettings["AwardsDAOKey"];
 
                 if (awardsDAO == null)
                 {
@@ -57,7 +57,7 @@ namespace Epam.Task07.Common
         {
             get
             {
-                string key = ConfigurationSettings.AppSettings["UsersDAOKey"];
+                string key = ConfigurationManager.AppSettings["UsersDAOKey"];
 
                 if (usersDAO == null)
                 {
@@ -101,7 +101,7 @@ namespace Epam.Task07.Common
         {
             get
             {
-                var key = ConfigurationSettings.AppSettings["AwardsUsersDAOKey"];
+                var key = ConfigurationManager.AppSettings["AwardsUsersDAOKey"];
 
                 if (awardsUsersDAO == null)
                 {
