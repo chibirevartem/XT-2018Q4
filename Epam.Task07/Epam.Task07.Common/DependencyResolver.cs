@@ -2,9 +2,11 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Configuration;
+using Epam.Task07.BLL.Interfaces;
+using Epam.Task07.txtDAL.Interfaces;
 using Epam.Task07.BLL;
 using Epam.Task07.txtDAL;
-using System.Configuration;
 
 namespace Epam.Task07.Common
 {

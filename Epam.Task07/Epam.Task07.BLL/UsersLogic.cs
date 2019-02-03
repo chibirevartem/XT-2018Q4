@@ -5,7 +5,8 @@ using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
 using Epam.Task07.Entities;
-using Epam.Task07.txtDAL;
+using Epam.Task07.BLL.Interfaces;
+using Epam.Task07.txtDAL.Interfaces;
 
 
 namespace Epam.Task07.BLL
@@ -40,12 +41,14 @@ namespace Epam.Task07.BLL
                 throw new Exception("Incorrent date");
             }
 
+            
+
             User user = new User
             {
                 Name = userName,
-                BirthDate = DateTime.Parse(birthDate),
-                //BirthDate = DateTime.ParseExact(birthDate, DateFormat, CultureInfo.InvariantCulture),
-            };
+                
+                BirthDate = DateTime.ParseExact(birthDate, DateFormat, CultureInfo.InvariantCulture);
+        
 
             if (!(user.Age > 5 & user.Age < 150))
             {
@@ -59,7 +62,7 @@ namespace Epam.Task07.BLL
                     usersDAO.Add(user);
                     return true;
                 }
-                catch (Exception)
+                catch (Exception exc)
                 {
 
                     return false;

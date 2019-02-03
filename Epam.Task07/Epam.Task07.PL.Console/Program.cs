@@ -3,13 +3,15 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Epam.Task07.BLL;
+using Epam.Task07.BLL.Interfaces;
+using Epam.Task07.Entities;
+using Epam.Task07.PL.Console;
 using Epam.Task07.Common;
 
 
 namespace Epam.Task07.PL.Console
 {
-    class Program
+    internal class Program
     {
         internal static IUsersLogic usersLogic;
         internal static IAwardUsersLogic awardUsersLogic;
@@ -22,6 +24,7 @@ namespace Epam.Task07.PL.Console
             awardUsersLogic = DependencyResolver.AwardUsersLogic;
             cacheLogic = DependencyResolver.CacheLogic;
             awardsLogic = DependencyResolver.AwardsLogic;
+
 
             while (true)
             {

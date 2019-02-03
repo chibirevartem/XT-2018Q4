@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using Epam.Task07.Entities;
 
-namespace Epam.Task07.BLL
+namespace Epam.Task07.BLL.Interfaces
 {
     public interface IUsersLogic
     {

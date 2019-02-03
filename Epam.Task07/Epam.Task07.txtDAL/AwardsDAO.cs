@@ -4,6 +4,7 @@ using System.Configuration;
 using System.IO;
 using System.Linq;
 using Epam.Task07.Entities;
+using Epam.Task07.txtDAL.Interfaces;
 
 
 namespace Epam.Task07.txtDAL

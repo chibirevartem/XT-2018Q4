@@ -63,16 +63,14 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Epam.Task07.BLL.Interfaces\Epam.Task07.BLL.Interfaces.csproj">
       <Project>{db6a818c-c0fb-494c-bea3-9eb68b04d0b3}</Project>
       <Name>Epam.Task07.BLL.Interfaces</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Epam.Task07.BLL\Epam.Task07.BLL.csproj">
-      <Project>{db63d9d7-2daa-415c-a4da-45293c4797de}</Project>
-      <Name>Epam.Task07.BLL</Name>
     </ProjectReference>
     <ProjectReference Include="..\Epam.Task07.Common\Epam.Task07.Common.csproj">
       <Project>{fd7424fb-28bb-41ea-85b1-ee980180c1a3}</Project>

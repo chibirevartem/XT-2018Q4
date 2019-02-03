@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using Epam.Task07.Entities;
-using Epam.Task07.txtDAL;
+using Epam.Task07.BLL.Interfaces;
+using Epam.Task07.txtDAL.Interfaces;
 
 namespace Epam.Task07.BLL
 {

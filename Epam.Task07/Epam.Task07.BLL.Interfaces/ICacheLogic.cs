@@ -1,4 +1,4 @@
-﻿namespace Epam.Task07.BLL
+﻿namespace Epam.Task07.BLL.Interfaces
 {
     public interface ICacheLogic
     {

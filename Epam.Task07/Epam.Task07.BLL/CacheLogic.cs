@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using Epam.Task07.BLL.Interfaces;
+
 
 namespace Epam.Task07.BLL
 {
