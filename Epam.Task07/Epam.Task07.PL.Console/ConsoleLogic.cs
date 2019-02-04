@@ -97,7 +97,7 @@ namespace Epam.Task07.PL.Console
 
             else
             {
-                System.Console.WriteLine("An error has occured");
+                System.Console.WriteLine("Error: Can't add the user");
             }
 
         }

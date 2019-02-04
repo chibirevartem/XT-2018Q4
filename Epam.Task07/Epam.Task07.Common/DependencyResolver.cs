@@ -28,15 +28,13 @@ namespace Epam.Task07.Common
 
                 if (awardsDAO == null)
                 {
-                    if (key == "textfile")
+                    if (key == "textFile")
                     {
                         awardsDAO = new AwardsDAO();
 
                     }
                 }
-
                 return awardsDAO;
-
             }
         }
 
@@ -46,7 +44,7 @@ namespace Epam.Task07.Common
             {
                 if (awardsLogic == null)
                 {
-                    awardsLogic = new AwardsLogic(awardsDAO,cacheLogic);
+                    awardsLogic = new AwardsLogic(AwardsDAO,CacheLogic);
                 }
 
                 return awardsLogic;
@@ -61,7 +59,7 @@ namespace Epam.Task07.Common
 
                 if (usersDAO == null)
                 {
-                    if (key == "textfile")
+                    if (key == "textFile")
                     {
                         usersDAO = new UsersDAO();
                     }
@@ -77,7 +75,7 @@ namespace Epam.Task07.Common
             {
                 if (usersLogic == null)
                 {
-                    usersLogic = new UsersLogic(usersDAO, cacheLogic, awardUsersLogic);
+                    usersLogic = new UsersLogic(UsersDAO, CacheLogic, AwardUsersLogic);
                 }
 
                 return usersLogic;
@@ -105,7 +103,7 @@ namespace Epam.Task07.Common
 
                 if (awardsUsersDAO == null)
                 {
-                    if (key == "textfile")
+                    if (key == "textFile")
                     {
                         awardsUsersDAO = new AwardsUsersDAO();
                     }
@@ -121,7 +119,7 @@ namespace Epam.Task07.Common
             {
                 if (awardUsersLogic == null)
                 {
-                    awardUsersLogic = new AwardUsersLogic(usersDAO, awardsDAO, awardsUsersDAO, cacheLogic);
+                    awardUsersLogic = new AwardUsersLogic(UsersDAO, AwardsDAO, AwardsUsersDAO, CacheLogic);
                 }
 
                 return awardUsersLogic;
