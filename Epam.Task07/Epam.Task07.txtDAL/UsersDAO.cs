@@ -53,7 +53,7 @@ namespace Epam.Task07.txtDAL
                     .Select
                     (line => 
                     {
-                        var found = line.Split(new[] { separator }, 3);
+                        var found = line.Split(new[] {separator}, 3);
                         return new User
                         {
                             Id = int.Parse(found[0]),

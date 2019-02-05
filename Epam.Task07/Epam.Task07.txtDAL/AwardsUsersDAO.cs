@@ -34,7 +34,7 @@ namespace Epam.Task07.txtDAL
 
         private static string ToText(AwardUser awardUser)
         {
-            return $"{awardUser.UserId.ToString()}{separator}{awardUser.AwardId.ToString()}{separator}";
+            return $"{awardUser.UserId.ToString()}{separator}{awardUser.AwardId.ToString()}";
         }
 
         public IEnumerable<AwardUser> GetAll()
@@ -45,7 +45,7 @@ namespace Epam.Task07.txtDAL
                     (
                     line=> 
                     {
-                        var found = line.Split(new[] { separator }, 2);
+                        var found = line.Split(new[] {separator}, 2);
                         return new AwardUser
                         {
                             UserId = int.Parse(found[0]),

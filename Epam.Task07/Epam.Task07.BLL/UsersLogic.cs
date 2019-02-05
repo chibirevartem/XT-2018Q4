@@ -84,7 +84,7 @@ namespace Epam.Task07.BLL
                 }
 
                 cacheLogic.Add(AllUsersCacheKey, users);
-
+                return users;
             }
             return cacheResult;
         }

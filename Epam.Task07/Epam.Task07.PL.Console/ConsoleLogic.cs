@@ -32,7 +32,7 @@ namespace Epam.Task07.PL.Console
             System.Console.WriteLine($"BirthDate:{user.BirthDate}");
             System.Console.WriteLine($"Age:{user.Age}");
 
-            if (user.UserAwards.Any())
+            if (user.UserAwards.Any())            
             {
                 System.Console.WriteLine($"User Award(s):");
 
@@ -51,7 +51,8 @@ namespace Epam.Task07.PL.Console
 
         private static void ShowAllUsers()
         {
-            foreach (User user in Program.usersLogic.GetAll())
+            IEnumerable<User> users = Program.usersLogic.GetAll();
+            foreach (User user in users)
             {
                 ShowUserInfo(user);
             }

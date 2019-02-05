@@ -35,7 +35,7 @@ namespace Epam.Task07.txtDAL
 
         public bool Add(Award award)
         {
-            award.Id = maxId++;
+            award.Id = ++maxId;
             try
             {
                 File.WriteAllText(maxIdFilePath,maxId.ToString());

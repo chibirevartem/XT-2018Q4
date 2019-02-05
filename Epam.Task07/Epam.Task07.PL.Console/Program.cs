@@ -14,14 +14,12 @@ namespace Epam.Task07.PL.Console
     {
         internal static IUsersLogic usersLogic;
         internal static IAwardUsersLogic awardUsersLogic;
-        
         internal static IAwardsLogic awardsLogic;
 
         static void Main(string[] args)
         {
             usersLogic = DependencyResolver.UsersLogic;
-            awardUsersLogic = DependencyResolver.AwardUsersLogic;
-            
+            awardUsersLogic = DependencyResolver.AwardUsersLogic; 
             awardsLogic = DependencyResolver.AwardsLogic;
 
 
